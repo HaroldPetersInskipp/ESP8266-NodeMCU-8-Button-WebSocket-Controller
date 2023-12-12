@@ -58,6 +58,7 @@ The ESP8266 NodeMCU is configured with the following GPIO pins for buttons:
 - "cross" - D1
 - "square" - A0 (analog button)
 
+POWER MUST BE SUPPLIED VIA USB TO USE THE FOLLOWING WIRING DIAGRAM TO FIT ON A HALF SIZE BREADBOARD
 <img alt="Diagram" height="700px" src="Fritzing_Diagram_Screenshot.png" />
 
 ## WebSocket Server Configuration
