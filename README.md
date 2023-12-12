@@ -65,6 +65,12 @@ POWER MUST BE SUPPLIED VIA USB TO USE THE FOLLOWING WIRING DIAGRAM TO FIT ON A H
 
 Ensure that your Node-RED server is configured to accept WebSocket connections. The WebSocket endpoint should match the `webSocketEndpoint` defined in the code.
 
+## Node-RED Integration
+
+1. Import the `flow.json` file provided in the repository into your Node-RED instance.
+
+2. The flow includes nodes to receive WebSocket messages from the ESP8266.
+
 ## Additional Information
 
 - This code includes detailed boot information, Wi-Fi connection details, and WebSocket connection status in the Serial Monitor.
