@@ -58,6 +58,8 @@ The ESP8266 NodeMCU is configured with the following GPIO pins for buttons:
 - "cross" - D1
 - "square" - A0 (analog button)
 
+<img alt="Diagram" height="955px" src="Fritzing_Diagram_Screenshot.png" />
+
 ## WebSocket Server Configuration
 
 Ensure that your Node-RED server is configured to accept WebSocket connections. The WebSocket endpoint should match the `webSocketEndpoint` defined in the code.
