@@ -58,7 +58,7 @@ The ESP8266 NodeMCU is configured with the following GPIO pins for buttons:
 - "cross" - D1
 - "square" - A0 (analog button)
 
-<img alt="Diagram" height="955px" src="Fritzing_Diagram_Screenshot.png" />
+<img alt="Diagram" height="700px" src="Fritzing_Diagram_Screenshot.png" />
 
 ## WebSocket Server Configuration
 
