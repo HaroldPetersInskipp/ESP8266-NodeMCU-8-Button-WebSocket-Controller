@@ -71,6 +71,8 @@ Ensure that your Node-RED server is configured to accept WebSocket connections. 
 
 2. The flow includes nodes to receive WebSocket messages from the ESP8266.
 
+<img alt="flow_screenshot" height="100px" src="flow_screenshot.png" />
+
 ## Additional Information
 
 - This code includes detailed boot information, Wi-Fi connection details, and WebSocket connection status in the Serial Monitor.
