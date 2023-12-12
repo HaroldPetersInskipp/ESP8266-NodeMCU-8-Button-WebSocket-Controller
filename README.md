@@ -70,7 +70,49 @@ Ensure that your Node-RED server is configured to accept WebSocket connections. 
 
 - The `esp8266unitNumber` provides a unique identifier for each ESP8266 NodeMCU, aiding in device management.
 
-- Button states are sent to the WebSocket server only when buttons are pressed, minimizing unnecessary communication.
+The following is a sample boot message:
+```
+09:15:27.803 -> Starting the boot process...
+09:15:27.803 -> Device identifier: ESP8266controller_1
+09:15:27.803 -> Firmware version: 2.2.2-dev(38a443e)
+09:15:27.803 -> Boot version: 31
+09:15:27.803 -> Boot mode: 1
+09:15:27.803 -> CPU frequency: 80
+09:15:27.803 -> Flash size: 4194304
+09:15:27.803 -> Free heap: 49912
+09:15:27.803 -> Heap fragmentation: 0
+09:15:27.803 -> Chip ID: 6400687
+09:15:27.803 -> Flash chip ID: 1458270
+09:15:27.803 -> 
+09:15:27.803 -> Connecting to Wi-Fi
+09:15:28.661 -> .............
+09:15:35.369 -> WiFi connected
+09:15:35.369 -> WiFi SSID: Botnet
+09:15:35.369 -> WiFi local IP address: 10.0.0.234
+09:15:35.369 -> WiFi subnet mask: 255.255.255.0
+09:15:35.369 -> WiFi subnet mask: 255.255.255.0
+09:15:35.369 -> WiFi gateway IP address: 10.0.0.1
+09:15:35.369 -> WiFi DNS server IP address: 75.75.75.75
+09:15:35.415 -> WiFi mode: 3
+09:15:35.415 -> WiFi channel: 9
+09:15:35.415 -> WiFi MAC address: C8:C9:A3:61:AA:AF
+09:15:35.415 -> WiFi status: 3
+09:15:35.415 -> WiFi RSSI: -44
+09:15:35.415 -> Ending the boot process...
+09:15:35.415 -> 
+09:15:35.415 -> ESP8266controller_1 should now be operational.
+09:15:35.415 -> 
+09:15:35.415 ->  ★BUTTON LAYOUT★
+09:15:35.415 ->  ___ ___ ___ ___ 
+09:15:35.415 -> | 0 | 1 | 2 | 3 |
+09:15:35.415 -> |---|---|---|---|
+09:15:35.415 -> | 4 | 5 | 6 | 7 |
+09:15:35.415 ->  --- --- --- --- 
+09:15:35.415 -> 
+09:15:35.415 -> Connecting to WebSocket
+09:15:36.129 -> WebSocket connected
+09:15:36.129 -> WebSocket endpoint: http://10.0.0.111:1880/controller_1
+```
 
 ## License
 
