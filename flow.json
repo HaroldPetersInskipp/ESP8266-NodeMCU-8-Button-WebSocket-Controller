@@ -1,0 +1,60 @@
+[
+    {
+        "id": "297616ae17b508f0",
+        "type": "websocket in",
+        "z": "7aa0a1c8c8394f60",
+        "name": "",
+        "server": "55f8c51260f62f2a",
+        "client": "",
+        "x": 120,
+        "y": 240,
+        "wires": [
+            [
+                "52cbdbf196af9ad6"
+            ]
+        ]
+    },
+    {
+        "id": "52cbdbf196af9ad6",
+        "type": "rbe",
+        "z": "7aa0a1c8c8394f60",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload",
+        "topi": "topic",
+        "x": 270,
+        "y": 240,
+        "wires": [
+            [
+                "399bf698ee50ad14"
+            ]
+        ]
+    },
+    {
+        "id": "399bf698ee50ad14",
+        "type": "json",
+        "z": "7aa0a1c8c8394f60",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 390,
+        "y": 240,
+        "wires": [
+            [
+                "b62ad71dcca637f1",
+                "1eb8d90ff0e9acbf"
+            ]
+        ]
+    },
+    {
+        "id": "55f8c51260f62f2a",
+        "type": "websocket-listener",
+        "path": "/controller_1",
+        "wholemsg": "false"
+    }
+]
